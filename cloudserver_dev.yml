@@ -1,0 +1,8 @@
+---
+# this manifest deploys the rsoter application
+applications:
+  - name: cloudserver
+    memory: 1G
+    instances: 1
+    buildpack: java_buildpack
+    timeout: 120
