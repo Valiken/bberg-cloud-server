@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: github.com
+          uri: {uri}
           username: {username}
           password: {password}
 security:
