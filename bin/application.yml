@@ -7,10 +7,10 @@ spring:
     config:
       server:
         git:
-          uri: ((uri))
-          username: ((username))
-          password: ((password))
+          uri: {uri}
+          username: {username}
+          password: {password}
 security:
   user:
-    name: ((username))
-    password: ((password))
+    name: {username}
+    password: {password}
