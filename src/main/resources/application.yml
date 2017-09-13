@@ -1,4 +1,4 @@
-uri: ${vcap.services.git.credentials.username}
+uri: ${vcap.services.git.credentials.uri}
 username: ${vcap.services.git.credentials.username}
 password: ${vcap.services.git.credentials.password}
 ---
