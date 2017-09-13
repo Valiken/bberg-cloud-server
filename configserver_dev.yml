@@ -1,10 +1,10 @@
 ---
 # this manifest deploys the rsoter application
 applications:
-  - name: cloudserver
+  - name: configserver
     memory: 1G
     instances: 1
     buildpack: java_buildpack
     services:
       - git
-      - cloudserverLogs
+      - configLogs
