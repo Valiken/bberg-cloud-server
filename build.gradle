@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
 jar {
-	baseName = 'cloudserver'
+	baseName = 'configserver'
 }
 
 sourceCompatibility = 1.8
