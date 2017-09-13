@@ -1,6 +1,6 @@
-uri: ${vcap.services.github.credentials.username}
-username: ${vcap.services.github.credentials.username}
-password: ${vcap.services.github.credentials.password}
+uri: ${vcap.services.git.credentials.username}
+username: ${vcap.services.git.credentials.username}
+password: ${vcap.services.git.credentials.password}
 ---
 spring:
   cloud:
