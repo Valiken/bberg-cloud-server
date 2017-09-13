@@ -1,17 +1,11 @@
-uri: ${vcap.services.config-repo.credentials.uri}
 ---
 spring:
   cloud:
     config:
       server:
         git:
-          uri: ${uri}
+          uri: ${vcap.services.config-repo.credentials.uri}
 security:
   user:
     name: username
     password: password
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: https://eureka:password@eureka-bberg.cfapps.io/eureka
-    
