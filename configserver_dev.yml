@@ -8,3 +8,5 @@ applications:
     services:
       - config-repo
       - configLogs
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
