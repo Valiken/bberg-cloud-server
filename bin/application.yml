@@ -8,9 +8,7 @@ spring:
       server:
         git:
           uri: {uri}
-          username: {username}
-          password: {password}
-security:
-  user:
-    name: {username}
-    password: {password}
+#security:
+#  user:
+#    name: {username}
+#    password: {password}
