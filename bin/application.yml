@@ -1,6 +1,4 @@
-uri: ${vcap.services.git.credentials.uri}
-username: ${vcap.services.git.credentials.username}
-password: ${vcap.services.git.credentials.password}
+uri: ${vcap.services.config-repo.credentials.uri}
 ---
 spring:
   cloud:
@@ -10,5 +8,5 @@ spring:
           uri: ${uri}
 security:
   user:
-    name: ${username}
-    password: ${password}
+    name: username
+    password: password

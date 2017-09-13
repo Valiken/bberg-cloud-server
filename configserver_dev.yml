@@ -6,5 +6,5 @@ applications:
     instances: 1
     buildpack: java_buildpack
     services:
-      - git
+      - config-repo
       - configLogs
